@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a4a);
+  color: #fff;
+  padding: 20px;
+}
+
+.cartao {
+  background: #2a2a4a;
+  border-radius: 16px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  max-width: 350px;
+  width: 100%;
+}
+
+.foto {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #00ffcc;
+}
+
+.nome {
+  font-size: 1.5rem;
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.frase {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #00ffcc;
+  color: #1e1e2f;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ffcc00;
+  min-height: 20px;
+}
